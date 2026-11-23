@@ -1,5 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup><GenerateDocumentationFile>true</GenerateDocumentationFile><PackageId>DapperQueryGuard.Schema</PackageId><Description>Offline SQL Server schema snapshots for DapperQueryGuard.</Description><PackageTags>dapper;sql-server;schema;performance</PackageTags><PackageReadmeFile>README.md</PackageReadmeFile><IncludeSymbols>true</IncludeSymbols><SymbolPackageFormat>snupkg</SymbolPackageFormat><PublishRepositoryUrl>true</PublishRepositoryUrl><EmbedUntrackedSources>true</EmbedUntrackedSources></PropertyGroup><ItemGroup><ProjectReference Include="../DapperQueryGuard.Core/DapperQueryGuard.Core.csproj" /><PackageReference Include="Microsoft.Data.SqlClient" /><PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" /></ItemGroup><ItemGroup><None Include="../../README.md" Pack="true" PackagePath="/" /></ItemGroup>
-
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>DapperSqlGuard.Schema</PackageId>
+    <Description>Offline SQL Server schema snapshots for DapperSqlGuard.</Description>
+    <PackageTags>dapper;sql-server;schema;performance</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeSymbols>true</IncludeSymbols><SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl><EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../DapperQueryGuard.Core/DapperQueryGuard.Core.csproj" /><PackageReference Include="Microsoft.Data.SqlClient" /><PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" /></ItemGroup>
+  <ItemGroup><None Include="../../README.md" Pack="true" PackagePath="/" /></ItemGroup>
 </Project>
