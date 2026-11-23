@@ -5,7 +5,7 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
     <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    <PackageId>DapperSqlGuard.CodeFixes</PackageId>
+    <PackageId>Hanzales.DapperQueryGuard.CodeFixes</PackageId>
     <Description>Safe Roslyn code fixes for DapperQueryGuard diagnostics.</Description>
     <PackageTags>dapper;roslyn;codefix;sql-server</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>

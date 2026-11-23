@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <PackageId>DapperSqlGuard.Schema</PackageId>
+    <PackageId>Hanzales.DapperQueryGuard.Schema</PackageId>
     <Description>Offline SQL Server schema snapshots for DapperSqlGuard.</Description>
     <PackageTags>dapper;sql-server;schema;performance</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>

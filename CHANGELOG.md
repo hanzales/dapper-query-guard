@@ -1,8 +1,8 @@
 # Changelog
 
-## 0.1.0-preview.3
+## 0.1.0-preview.4
 
-- Renamed published package IDs to the unreserved `DapperSqlGuard.*` prefix.
+- Renamed published package IDs to the owner-qualified `Hanzales.DapperQueryGuard.*` prefix.
 
 ## 0.1.0-preview.2
 

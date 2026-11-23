@@ -7,7 +7,7 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
     <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    <PackageId>DapperSqlGuard.Analyzers</PackageId>
+    <PackageId>Hanzales.DapperQueryGuard.Analyzers</PackageId>
     <Description>Roslyn analyzer for Dapper SQL Server parameter diagnostics.</Description>
     <PackageTags>dapper;roslyn;analyzer;sql-server</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>

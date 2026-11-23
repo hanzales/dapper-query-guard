@@ -17,8 +17,8 @@ dotnet test -c Release
 Install the analyzer and code-fix packages from a local or NuGet feed when published:
 
 ```bash
-dotnet add package DapperSqlGuard.Analyzers --prerelease
-dotnet add package DapperSqlGuard.CodeFixes --prerelease
+dotnet add package Hanzales.DapperQueryGuard.Analyzers --prerelease
+dotnet add package Hanzales.DapperQueryGuard.CodeFixes --prerelease
 ```
 
 Export an offline schema snapshot (the CLI reads the connection string only from the named environment variable):
@@ -59,10 +59,10 @@ The initial release supports static, single-table `SELECT` statements with a sim
 
 ## Packages
 
-- `DapperSqlGuard.Core` — versioned schema models and serialization.
-- `DapperSqlGuard.Schema` — read-only SQL Server catalog export.
-- `DapperSqlGuard.Analyzers` — DQG001 Roslyn analyzer.
-- `DapperSqlGuard.CodeFixes` — safe `Dapper.DbString` code fix.
+- `Hanzales.DapperQueryGuard.Core` — versioned schema models and serialization.
+- `Hanzales.DapperQueryGuard.Schema` — read-only SQL Server catalog export.
+- `Hanzales.DapperQueryGuard.Analyzers` — DQG001 Roslyn analyzer.
+- `Hanzales.DapperQueryGuard.CodeFixes` — safe `Dapper.DbString` code fix.
 - `DapperQueryGuard.Cli` — `dqg schema export` command (run with `dotnet run` in this preview).
 
 ## Security and privacy
