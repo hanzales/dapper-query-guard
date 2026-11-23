@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.0-preview.2
+
+- Republished the initial packages with a unique preview version after the first feed conflict.
+
 ## 0.1.0-preview.1
 
 - Added versioned SQL Server schema snapshots.
